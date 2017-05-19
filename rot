@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-cat - | tr a-z n-za-m
+cat - | tr a-zA-Z0-9 n-za-mN-ZA-M5-90-4
