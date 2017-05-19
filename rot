@@ -1,2 +1,7 @@
 #!/usr/bin/env sh
-cat - | tr a-zA-Z0-9 n-za-mN-ZA-M5-90-4
+if test $# -eq 0
+then
+	exec tr a-zA-Z0-9 n-za-mN-ZA-M5-90-4
+else
+	cat $* | tr a-zA-Z0-9 n-za-mN-ZA-M5-90-4
+fi
