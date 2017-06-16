@@ -15,3 +15,4 @@ explicit step to do so.
 
 An interesting property of rotational 13 cypher is that it is its own reverse.
 In other words: `rot | rot` is identical to `cat`.
+Improvement.
